@@ -1,0 +1,37 @@
+.about {
+    padding: 140px 0;
+    background: url("../img/about/bg-text.png") top 140px left 120px/580px 615px no-repeat,
+        url("../img/about/bg.png") center/cover;
+        &__img{
+            width: 100%;
+            object-fit: cover;
+        }
+    &__title {
+        padding-top: 150px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 55px;
+        /* identical to box height, or 110% */
+
+        letter-spacing: 1.65px;
+
+        color: #35b8be;
+        margin-bottom: 30px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+
+        letter-spacing: 0.36px;
+
+        color: #546285;
+        margin-bottom: 50px;
+    }
+    &__moreBtn {
+       @include btn;
+    }
+}

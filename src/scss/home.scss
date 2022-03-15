@@ -1,0 +1,57 @@
+.home {
+    padding: 100px 0 140px;
+    background: url("../img/home/bg.png") center/cover;
+    &__img{
+        width: 100%;
+        object-fit: cover;
+    }
+    &__title {
+        padding-top: 43px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 60px;
+        /* or 100% */
+
+        letter-spacing: 1.8px;
+
+        color: #08090a;
+        margin-bottom: 27px;
+        &_green {
+            color: #35b8be;
+        }
+    }
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        /* or 134% */
+
+        letter-spacing: 0.36px;
+
+        color: #546285;
+        margin-bottom: 53px;
+    }
+    &__orderBtn {
+        @include btn;
+        margin-bottom: 30px;
+    }
+    &-rating {
+        &__img {
+            margin-bottom: 10px;
+        }
+        &__text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            /* identical to box height, or 125% */
+
+            color: #08090a;
+            &_green {
+                color: #35b8be;
+            }
+        }
+    }
+}

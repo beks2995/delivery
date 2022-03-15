@@ -1,0 +1,53 @@
+.faq{
+    padding: 120px 0;
+    &__img{
+        width: 100%;
+        object-fit: cover;
+    }
+    &__title{
+        font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 55px;
+/* or 110% */
+
+letter-spacing: 1.65px;
+
+color: #35B8BE;
+margin-bottom: 30px;
+    }
+    &__text{
+        font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+letter-spacing: 0.36px;
+
+color: #546285;
+margin-bottom: 15px;
+height: auto;
+transition: max-height 0.4s ease-in;
+&_hidden{
+    transition: max-height 0.4s ease-out;
+    max-height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+    }
+    &__moreBtn{
+        font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-decoration-line: underline;
+
+color: #6035BC;
+display: inline-block;
+margin-bottom: 100px;
+    }
+    &__allBtn{
+        @include btn;
+    }
+}

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./src/img/inst.png">
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__info">
+            We're open and available for takeaway & delivery.
+            <a href="" class="header__orderLink">
+                Order Now
+            </a>
+        </div>
+        <div class="container">
+            <nav class="header-nav">
+                <a href="" class="header-nav__logo">
+                    <img src="./src/img/header/logo.png" alt="" class="header-nav__logo-img">
+                </a>
+                <div class="header-nav__menu">
+                    <a href="#home" class="header-nav__menu-item">Home</a>
+                    <a href="./pages/order/index.html" class="header-nav__menu-item">Order</a>
+                    <a href="./pages/company/index.html" class="header-nav__menu-item">Company</a>
+                    <a href="#faq" class="header-nav__menu-item">FAQ</a>
+                    <a href="#contacts" class="header-nav__menu-item">Contact</a>
+                    <button class="header-nav__cartBtn">
+                        <img src="./src/img/header/cart.png" alt="" class="header-nav__img">
+                        <span class="header-nav__counter">
+                            0
+                        </span>
+                    </button>
+                </div>
+            </nav>
+            <div class="burger">
+                <span class="burger__line"></span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="home" id="home">
+            <div class="container">
+                <div class="row flex-wrap-reverse">
+                    <div class="col-md-6">
+                        <h1 class="home__title">Beautiful food & takeaway, <span
+                                class="home__title home__title_green">delivered</span> to your door.</h1>
+                        <p class="home__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                        <a href="" class="home__orderBtn">Place an Order</a>
+                        <div class="home-rating">
+                            <img src="./src/img/home/star.png" alt="" class="home-rating__img">
+                            <div class="home-rating__text">
+                                <span class="home-rating__text home-rating__text_green">4.8 out of 5</span>
+                                based on 2000+ reviews
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./src/img/home/food.png" alt="" class="home__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row flex-wrap-reverse">
+                    <div class="col-md-6">
+                        <h2 class="about__title">The home of fresh products</h2>
+                        <p class="about__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                        <a href="" class="about__moreBtn">Learn about us</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./src/img/about/img.png" alt="" class="about__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="container">
+                <h2 class="work__title">How it works.</h2>
+
+                <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <div class="work-card">
+                                    <img src="./src/img/work/img1.png" alt="" class="work-card__img">
+                                    <h3 class="work-card__title">Adapt your menu items</h3>
+                                    <p class="work-card__text">Easily adapt your menu using the webflow CMS and allow
+                                        customers to browse your items.</p>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="work-card">
+                                    <img src="./src/img/work/img2.png" alt="" class="work-card__img">
+                                    <h3 class="work-card__title">Accept online orders & takeout</h3>
+                                    <p class="work-card__text">Let your customers order and pay via the powerful
+                                        ecommerce system, or simple let them call your store.</p>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="work-card">
+                                    <img src="./src/img/work/img3.png" alt="" class="work-card__img">
+                                    <h3 class="work-card__title">Manage delivery or takeout</h3>
+                                    <p class="work-card__text">Manage your own logistics and take orders simply through
+                                        the ecommerce system.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-nav">
+                        <div class="customPrevBtn">prev</div>
+                        <div class="customNextBtn">next</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="container">
+                <h2 class="menu__title">Browse our menu</h2>
+                <p class="menu__subtitle">
+                    Use our menu to place an order online, or
+                    <span class="menu__subtitle menu__subtitle_green">phone</span>
+                    our store to place a pickup order. Fast and fresh food.
+                </p>
+                <div class="menu-tabs">
+
+                    <ul class="menu-tabs__caption">
+                        <li class="menu-tabs__btn menu-tabs__btn_active">Burgers</li>
+                        <li class="menu-tabs__btn">Sides</li>
+                        <li class="menu-tabs__btn">Drinks</li>
+                    </ul>
+
+                    <div class="menu-tabs__content menu-tabs__content_active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-tabs__content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-tabs__content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="menu-tabs-card">
+                                    <div class="menu-tabs-card__left">
+                                        <img src="./src/img/menu/img1.png" alt="" class="menu-tabs-card__img">
+                                    </div>
+                                    <div class="menu-tabs-card__right">
+                                        <h3 class="menu-tabs-card__title">
+                                            Burger Dreams
+                                            <span class="menu-tabs-card__price">
+                                                $ 9.20 USD
+                                            </span>
+                                        </h3>
+                                        <p class="menu-tabs-card__text">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                        <input type="text" class="menu-tabs-card__input">
+                                        <button class="menu-tabs-card__addBtn">Add to card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-tabs__moreBtn">See Full Menu</div>
+                </div>
+            </div>
+        </section>
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./src/img/faq/faq.png" alt="" class="faq__img">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="faq__title">Order online with our simple checkout.</h2>
+                        <p class="faq__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                        <p class="faq__text faq__text_hidden" id="faq-hidden">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad et quas quaerat veniam
+                            voluptatibus, excepturi saepe libero quisquam sequi repudiandae vitae dignissimos cum
+                            nesciunt officia modi commodi incidunt nihil recusandae. Non nihil cumque aut in error qui
+                            asperiores corporis reiciendis magni, nisi quaerat ipsam nemo laudantium illum. Voluptates
+                            amet magnam sed, quas quaerat nesciunt quisquam aliquid placeat quis ab nam est neque saepe
+                            eaque fugiat consequuntur ut hic aspernatur numquam quae inventore debitis! Doloremque
+                            voluptas quas facere, voluptatibus quisquam nobis rem, aliquid quidem neque odio mollitia
+                            eos nihil. Tempore dicta placeat et doloribus earum ipsum, aut molestias? Dolorum, aperiam.
+                        </p>
+                        <a href="" class="faq__moreBtn">see more...</a>
+                        <br>
+                        <a href="" class="faq__allBtn">See our FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="row flex-wrap-reverse">
+                    <div class="col-md-6">
+                        <h2 class="contacts__title">Call our store and takeaway when it suits you best.</h2>
+                        <p class="contacts__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                        <a href="tel:+61 233 2333" class="contacts__tel">Ph. +61 233 2333</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./src/img/contacts/contacts.png" alt="" class="contacts__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="order" id="order">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./src/img/order/left.png" alt="" class="order__img">
+                </div>
+                <div class="col-md-6">
+                    <div class="order__block">
+                        <h3 class="order__title"><span class="order__title order__title_green">Support</span> good food
+                            and local business</h3>
+                        <a href="" class="order__link">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-column">
+                        <img src="./src/img/footer/logo.png" alt="" class="footer-column__logo">
+                        <div class="footer-column__link">Takeaway & Delivery template <br>for small - medium businesses.</div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-4">
+                    <div class="footer-column">
+                        <h3 class="footer-column__title">Company</h3>
+                        <a href="" class="footer-column__link">Home</a>
+                        <a href="" class="footer-column__link">Order</a>
+                        <a href="" class="footer-column__link">Faq</a>
+                        <a href="" class="footer-column__link">Contact</a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-4">
+                    <div class="footer-column">
+                        <h3 class="footer-column__title">template</h3>
+                        <a href="" class="footer-column__link">style guide</a>
+                        <a href="" class="footer-column__link">changelog</a>
+                        <a href="" class="footer-column__link">licence</a>
+                        <a href="" class="footer-column__link">Webflow University</a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-4">
+                    <div class="footer-column">
+                        <h3 class="footer-column__title">FLOWBASE</h3>
+                        <a href="" class="footer-column__link">More Cloneables</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__line"></div>
+            <div class="d-flex justify-content-between">
+                <div class="footer__copyright">Built by
+                    <span class="footer__copyright footer__copyright_green">Flowbase</span>
+                    · Powered by
+                    <span class="footer__copyright footer__copyright_green"></span>
+                </div>
+                <div class="footer-social">
+                    <a href="" class="footer-social__link">
+                        <img src="./src/img/footer/insta.png" alt="">
+                    </a>
+                    <a href="" class="footer-social__link">
+                        <img src="./src/img/footer/twit.png" alt="">
+                    </a>
+                    <a href="" class="footer-social__link">
+                        <img src="./src/img/footer/youtube.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="overlay">
+        <div class="popup">
+            <form action="" class="popup-form">
+                <input type="text" class="popup-form__input" placeholder="Введите Имя">
+                <input type="text" class="popup-form__input" placeholder="Введите Номер">
+                <button class="popup-form__btn">Заказать обратный звонок</button>
+            </form>
+            <div class="popup-msg">
+                <h2>Наши менеджеры свяжутся с вами в течении дня</h2>
+            </div>
+            <div class="popup-close">
+                <span class="popup-close__line"></span>
+            </div>
+        </div>
+    </div>
+    <script src="./src/libs/jquery/jquery.js"></script>
+    <script src="./src/libs/owl/owl.carousel.min.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>

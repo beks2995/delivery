@@ -1,0 +1,73 @@
+.work {
+    padding: 120px 0;
+    & .owl-theme .owl-nav {
+        margin-top: 0;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0;
+        & .customPrevBtn {
+            width: 40px;
+            height: 75px;
+            background: url("../img/work/left.png") center/cover;
+            cursor: pointer;
+        }
+        & .customNextBtn {
+            width: 40px;
+            height: 75px;
+            background: url("../img/work/right.png") center/cover;
+            cursor: pointer;
+        }
+    }
+    &__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 55px;
+        /* identical to box height, or 110% */
+
+        text-align: center;
+        letter-spacing: 1.65px;
+
+        color: #35b8be;
+        margin-bottom: 65px;
+    }
+    &-card {
+        max-width: 330px;
+        margin: 0 auto;
+        &__img {
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: 40px;
+        }
+        &__title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 22px;
+            /* identical to box height, or 110% */
+
+            text-align: center;
+            letter-spacing: 0.66px;
+
+            color: #08090a;
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+            /* or 150% */
+
+            text-align: center;
+            letter-spacing: 0.36px;
+
+            color: #546285;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.header {
+    & .burger{
+        display: none;
+    }
+    &__info {
+        text-align: center;
+        background: url("../img/header/bg.png") center/cover;
+        padding: 14px 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+        color: rgba(255, 255, 255, 0.8);
+    }
+    &__orderLink {
+        display: inline-block;
+        margin-left: 15px;
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        &__cartBtn {
+            width: 55px;
+            height: 55px;
+            border-radius: 4px;
+            background: url("../img/header/btn-bg.png") center/cover;
+            border: none;
+            cursor: pointer;
+            position: relative;
+        }
+        &__counter {
+            position: absolute;
+            top: -6px;
+            right: -6px;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #ffffff;
+            box-shadow: 7px 7px 25px rgba(126, 130, 143, 0.27);
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 18px;
+            /* identical to box height, or 138% */
+
+            text-align: center;
+
+            color: #35b8be;
+            line-height: 25px;
+        }
+        &__menu {
+            display: flex;
+            align-items: center;
+            &-item {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 20px;
+                /* identical to box height, or 133% */
+
+                color: #28224b;
+                margin-right: 30px;
+                text-decoration: none;
+                &:hover {
+                    color: #35b8be;
+                }
+            }
+        }
+    }
+}

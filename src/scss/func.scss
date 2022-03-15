@@ -1,0 +1,16 @@
+@mixin btn {
+    background: url('../img/about/btn-bg.png') center/cover;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+
+    text-align: center;
+
+    color: #ffffff;
+    padding: 20px 35px;
+    text-decoration: none;
+    display: inline-block;
+}
